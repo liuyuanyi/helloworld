@@ -8,7 +8,7 @@ public class HelloWorld {
             case 2:str="hello22222";
             default:str="hello33333";
         }
-        return str;
+        return helloEntity.toString()+str;
     }
 
 }
